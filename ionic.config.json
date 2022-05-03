@@ -1,0 +1,7 @@
+{
+  "name": "Storic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
