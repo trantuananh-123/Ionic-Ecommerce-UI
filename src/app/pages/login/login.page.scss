@@ -1,0 +1,51 @@
+// Remove IOS header line
+ion-toolbar {
+    --border-width: 0 !important;
+}
+
+// Remove ANDROID header line
+.header-md::after {
+    background: none !important;
+}
+
+.container h1 {
+    margin-top: 0;
+}
+
+.back-btn {
+    margin-left: 20px;
+}
+
+.form-container {
+    margin-top: 48px;
+
+    ion-item {
+        --padding-start: 0;
+        --border-color : #DADADA;
+
+        ion-label {
+            color: #A6A6A6;
+        }
+
+        ion-icon {
+            margin-top: auto;
+            color     : #c6cbd4;
+        }
+    }
+
+    ion-button {
+        margin-top: 48px;
+    }
+}
+
+.sign-up {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-weight    : 400 !important;
+
+    ion-button {
+        font-weight: bold !important;
+        margin     : 0;
+    }
+}
